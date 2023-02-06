@@ -1,0 +1,134 @@
+
+.start{
+    width: 100%;
+    font-size: 25px;
+    text-decoration: underline;
+    text-align: center;
+    background-image: linear-gradient( to right, red, green,yellow);
+    height: 30px;
+}
+.box1{
+    background-color: skyblue;
+    border:3px solid red;
+    border-radius: 10px;
+    margin:0px 300px 0px 300px;
+    position: absolute;
+    top: 55px;
+}
+.box{
+    width: 28%;
+    height: 69px;
+    border: 1px solid darkgreen;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(33, 245, 174);
+    border: 1px solid gray;
+    border-radius: 15px;
+    position: absolute;
+    top: 140px;
+    width: 99%;
+}
+.our{
+    text-decoration: underline;
+    width: 99%;
+    height: 35px;
+    border: 1px black solid;
+    position: absolute;
+    text-align: center;
+    top: 300px;
+    background-image: radial-gradient(yellow,red);
+}
+.yellowbox{
+    width: 250px;
+    height: 100px;
+    background-color: yellow;
+    border: 2px solid red;
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 12px;
+    line-height: 30px;
+
+}
+.flex2{
+    width: 99%;
+    height: 300px;
+    border: green solid 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 360px;
+    align-items: center;
+    background-image: radial-gradient(blue,rgb(42, 197, 42)  );
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    border:1px solid gray;
+    position: absolute;
+    top: 700px;
+    color:white;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 99%;
+}
+.t1{
+    grid-column-start: 1;
+    grid-column-end: 8;
+    border: 1px solid red;
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+.t2{
+    
+    grid-column-end: span 2;
+    font-size:  25px;
+    background-color: rgb(147, 213, 48);
+    color: white;
+    height: 83px;
+    text-align: center;
+}
+.t3{
+    grid-column-end: span 2;
+    font-size:  25px;
+    background-color: rgb(61, 137, 245);
+    color: white;
+    height: 83px;
+    text-align: center;
+}
+.t4{
+    grid-column-end: span 2;
+    font-size:  25px;
+    background-color: rgb(0, 35, 192);
+    color: white;
+    height: 83px;
+    text-align: center;
+}
+.t5{
+    grid-row-end: span 7;
+    background-color: rgb(77, 67, 67);
+    line-height: 12px;
+    height: 218px;
+}
+.t6{
+    background-color:rgb(236, 142, 20);
+    grid-column-end: span 6;
+    font-size: 20px;
+    height:120px;
+}
+.t7{
+    background-color:rgb(183, 223, 239);
+    grid-column-end: span 7;
+    color:blueviolet;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -45px;
+}
